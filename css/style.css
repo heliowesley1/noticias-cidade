@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+main {
+    width: 750px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 40px;
+    padding-top: 25px;
+}
+
+img.detalhe-logo {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 10px;
+    line-height: 2.5em;
+    text-indent: 20px;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+nav .primeiro {
+    background: none;
+}
+
+nav a:hover {
+    color: #69001d;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #b10333;
+    float: left;
+}
+
+nav li {
+    float: left;
+}
+
+body.home nav a#home, body.brasil nav a#brasil, body.internacional nav a#internacional,
+body.fotos nav a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
