@@ -7,12 +7,16 @@ body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x;
 }
-
+body.home nav a#home, body.brasil nav a#brasil, body.internacional nav a#internacional,
+body.fotos nav a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
 main {
     width: 750px;
     margin: 0 auto;
 }
-
 header {
     margin-bottom: 40px;
     padding-top: 25px;
@@ -51,9 +55,95 @@ nav li {
     float: left;
 }
 
-body.home nav a#home, body.brasil nav a#brasil, body.internacional nav a#internacional,
-body.fotos nav a#fotos {
+article {
+    margin-top: 130px;
+}
+
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+.caixa {
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 20px 0;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+.caixa-conteudo ul {
+    list-style: none;
+}
+.caixa-conteudo a {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9em;
+    line-height: 30px;
+    display: block;
+}
+.caixa-conteudo a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+.caixa-conteudo label {
+
+    background: #fff;
+    display: block;
+    cursor: pointer;
+}
+.caixa-conteudo input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+}
+input.submit {
+    margin-top: 2px;
+    width: 80px;
     color: #fff;
-    background: #de003e;
-    cursor: text;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+h2 {
+    background: #294c71;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background: #294c71;
+    padding: 20px;
+    margin: 0 auto;
+    color: #fff;
 }

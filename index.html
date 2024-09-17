@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
 </head>
-<body class="home">
-    <main>
 
+<body id="tres-colunas" class="home">
+    <main>
         <header>
             <img src="imagens/detalhe-topo.png" alt="mapa do brasil feito com bolinhas" class="detalhe-logo">
             <img src="imagens/logo.png" alt="logo do site noticias da cidade">
         </header>
-
         <nav>
             <ul>
                 <li><a id="home" class="primeiro" href="index.html">Home</a></li>
@@ -26,13 +25,43 @@
                 <li><a id="fotos" href="fotos.html">Fotos</a></li>
             </ul>
         </nav>
-        <section>
-            
-        </section>
-
-        <footer>
-
-        </footer>
+        <article>
+            <section id="primario"><p>lala</p></section>
+            <section id="secundario"><p>lala</p></section>
+            <section id="lateral">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                            <ul>
+                                <li><a href="#">José Luiz</a></li>
+                                <li><a href="#">Pablo Marchal</a></li>
+                                <li><a href="#">Doutridantes</a></li>
+                                <li><a href="#">Francisquinha</a></li>
+                                <li><a href="#">Pepê e Neném</a></li>
+                                <li><a href="#">Jorge e Matheus</a></li>
+                                <li><a href="#">Anita</a></li>
+                                <li><a href="#">Thiago Veigh</a></li>
+                            </ul>
+                    </div>
+                    <div class="caixa">
+                        <h2>News</h2>
+                    <div  class="caixa-conteudo">
+                            <form>
+                                <div>
+                                    <label for="email">Email:</label>
+                                    <input type="text" id="email" name="email" placeholder="e-mail">
+                                </div> 
+                                <div>
+                                    <input class="submit" type="submit" value="Cadastrar">
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </section>
+        </article>
     </main>
+    <footer>
+        &copy; Copyright 2000 - 2018 Notícias Cidade
+    </footer>
 </body>
 </html>
